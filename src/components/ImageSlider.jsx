@@ -49,16 +49,6 @@ const ImageSlider = () => {
         </div>
       )}
     </Carousel>
-
-    // <Slider {...settings}>
-    //   {SLIDER_IMG.map((item, key) =>
-    //     <div key={key}>
-    //       <Wrap>
-    //         <a><img src={item.path} alt="" /></a>
-    //       </Wrap>
-    //     </div>
-    //   )}
-    // </Slider>
   )
 }
 
