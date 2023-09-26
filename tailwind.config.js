@@ -18,9 +18,6 @@ export default {
         graybase: '#E0E0E0',
         navbarBase: '#090b13',
         blueLogin: '#0063e5'
-      },
-      backgroundImage: {
-        'home-login': "url('/public/images/login-background.jpg')",
       }
     },
   },
