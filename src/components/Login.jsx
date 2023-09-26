@@ -18,10 +18,8 @@ const Login = () => {
           </div>
           <img src={tailLogo} alt="logo-two" className='w-4/5 mt-6' />
         </div>
-        <div className={`h-full w-full bg-cover bg-no-repeat absolute z-[-1] bg-[url('${loginBackground}')]`} >
+        <div className={`h-full w-full bg-cover bg-no-repeat absolute z-[-1] bg-[url("${loginBackground}")]`} >
         </div>
-        {/* <div className='h-full w-full bg-cover bg-no-repeat absolute z-[-1] bg-[url("/src/assets/images/login-background.jpg")]' >
-        </div> */}
       </div>
     </div>
   )

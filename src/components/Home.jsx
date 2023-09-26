@@ -56,7 +56,7 @@ const Home = () => {
   })
 
   return (
-    <div className={`relative overflow-x-hidden block top-[70px] px-5 md:px-20 bg-cover bg-[url('${homeLogo}')] bg-no-repeat`}>
+    <div className={`relative overflow-x-hidden block top-[70px] px-5 md:px-20 bg-cover bg-[url("${homeLogo}")] bg-no-repeat`}>
       <ImageSlider />
       <Viewers />
       <Recommends />
