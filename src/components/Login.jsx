@@ -1,11 +1,11 @@
 import React from 'react'
 import headerLogo from '../assets/images/cta-logo-one.svg'
 import tailLogo from '../assets/images/cta-logo-two.png'
+import loginBackground from '../assets/images/login-background.jpg'
 
 const Login = () => {
   return (
     <div className='overflow-hidden flex flex-col text-center h-screen'>
-      {console.log(import.meta.env.VITE_NAME)}
       <div className='h-full w-full relative box-border flex flex-col items-center justify-center'>
         <div className='max-w-2xl w-full flex flex-col mt-0 justify-center items-center text-white '>
           <img src={headerLogo} alt="logo-one" className='w-3/4 mb-5' />
@@ -18,8 +18,10 @@ const Login = () => {
           </div>
           <img src={tailLogo} alt="logo-two" className='w-4/5 mt-6' />
         </div>
-        <div className='h-full w-full bg-cover bg-no-repeat absolute z-[-1]' style={{ backgroundImage: "url('/public/images/login-background.jpg')" }}>
+        <div className={`h-full w-full bg-cover bg-no-repeat absolute z-[-1] bg-[url('${loginBackground}')]`} >
         </div>
+        {/* <div className='h-full w-full bg-cover bg-no-repeat absolute z-[-1] bg-[url("/src/assets/images/login-background.jpg")]' >
+        </div> */}
       </div>
     </div>
   )

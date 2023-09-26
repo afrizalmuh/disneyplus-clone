@@ -10,6 +10,7 @@ import Recommends from './Recommends'
 import Disney from './Disney'
 import Originals from './Originals'
 import Trendings from './Trendings'
+import homeLogo from '../assets/images/home-background.png'
 
 const Home = () => {
   
@@ -55,7 +56,7 @@ const Home = () => {
   })
 
   return (
-    <div className="relative overflow-x-hidden block top-[70px] px-5 md:px-20 bg-cover bg-[url('/public/images/home-background.png')] bg-no-repeat">
+    <div className={`relative overflow-x-hidden block top-[70px] px-5 md:px-20 bg-cover bg-[url('${homeLogo}')] bg-no-repeat`}>
       <ImageSlider />
       <Viewers />
       <Recommends />
