@@ -1,7 +1,7 @@
 import React from 'react'
 import headerLogo from '../assets/images/cta-logo-one.svg'
 import tailLogo from '../assets/images/cta-logo-two.png'
-import loginBackground from '../assets/images/login-background.jpg'
+import loginBackground from '/src/assets/images/login-background.jpg'
 
 const Login = () => {
   return (
