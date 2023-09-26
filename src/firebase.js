@@ -3,12 +3,6 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth"
 import { getFirestore, doc, setDoc, getDoc, onSnapshot, collection } from "firebase/firestore"
 
-// import { initializeApp } from "firebase/app";
-// import { getAuth } from "firebase/auth";
-// import { getFirestore } from "firebase/firestore";
-// import { GoogleAuthProvider } from "firebase/auth";
-// import { doc, setDoc, getDoc, onSnapshot, collection } from 'firebase/firestore'
-
 const firebaseConfig = {
   apiKey: "AIzaSyAgdSYe7q0yqpL4TAefNxPjy5ZpCcY3BsA",
   authDomain: "disneyplus-clone-6bb47.firebaseapp.com",

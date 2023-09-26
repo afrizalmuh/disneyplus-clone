@@ -12,7 +12,6 @@ const Detail = () => {
   
   useEffect(() => {
     getDataById();
-    console.log(detailData.title)
   }, [id])
 
   const getDataById = async() => {

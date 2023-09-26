@@ -1,5 +1,5 @@
 import React from 'react'
-import { SLIDER_VIEWERS,SLIDER_IMG } from '../dummyData'
+import { SLIDER_VIEWERS } from '../dummyData'
 
 const Viewers = () => {
   return (
