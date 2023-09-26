@@ -21,6 +21,8 @@ export default {
       },
       backgroundImage: {
         'home-login': "url('/src/assets/images/login-background.jpg')",
+        'dashboard': "url('/src/assets/images/home-background.jpg')",
+
       }
     },
   },
